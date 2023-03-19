@@ -6,13 +6,10 @@ Created on Fri Mar 17 11:55:57 2023
 """
 
 import sys
-import numpy as np # linear algebra
+import numpy as np 
 import pandas as pd
-import warnings
 import matplotlib.pyplot as plt
 
-warnings.filterwarnings('ignore')
-# load data set
 x_l = np.load('X.npy')
 Y_l = np.load('Y.npy')
 img_size = 64
